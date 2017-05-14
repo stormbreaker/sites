@@ -1,0 +1,125 @@
+/*
+    Mines Blue #071D49
+    Mines Gold #B3A369
+*/
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content
+{
+    background-color: #B3A369;
+    display: block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.dropdown:hover
+{
+    border-radius: 5px;
+    background-color: #071D49;
+    color: #ffffff;
+}
+
+.minesGold
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #B3A369;
+}
+.minesBlue
+{
+    background-color: #071D49;
+}
+.centerLR
+{
+    text-align: center;
+}
+
+.dropdown a
+{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /*overrides php text thing*/
+    padding: 10px 5px;
+}
+
+.loginfields
+{
+    float: right;
+    position: relative;
+    padding: 7.5px 5px;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 5px 10px;
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropdown-content a:hover
+{
+    background-color: #071D49;
+    color: #ffffff;
+}
+
+.teamMember{
+    margin-top: 5px;
+}
+
+.imageProperties
+{
+    margin: 10px;
+    display: inline-block;
+}
+
+.imageMclauryProperties
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,1);
+}
+
+.divBorder
+{
+    margin: 50px;
+}
+
+.footerDiv
+{
+    background-color: #a6a6a6;
+    color: #595959;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+.footerElements
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+img{
+	margin-right: 10px;
+}

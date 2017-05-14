@@ -1,0 +1,174 @@
+/*<style>
+body {background-color:lightgrey}
+h1   {color:lightblue}
+p    {color:darkblue}
+</style>*/
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(fonts/Quicksand-Bold.otf);
+}
+
+body, h1, div {
+    margin: 0px;
+    padding: 0px;
+    font-family: Quicksand-Bold;
+}
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    font-family: Quicksand-Regular;
+}
+
+.site-wrapper {
+    margin: 0px auto;
+    max-width: 1000px;
+    padding: 0px 15px;
+}
+
+.site-header {
+    padding: 30px 0px;
+    background-color: #00cc7a;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#site-logo-text {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#site-logo-subtext {
+    color: #595959;
+    margin: 10px 0px 0px 0px;
+}
+
+.h2-header {
+    color: #595959;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.regular-paragraph {
+    color: #999999;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.small-button {
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Quicksand-Bold;
+    font-size: 17px;
+}
+
+.small-button:active {
+    cursor: pointer;
+}
+
+.small-button:focus {
+    outline: 0;
+}
+
+.small-button:active {
+    background-color: darkgray;
+}
+
+#list-options {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-form {
+    margin: 0px auto;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+.h2-header-form {
+    color: #595959;
+    font-size: 25px;
+}
+
+.select-boxes {
+   width: 270px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 2px solid darkgray;
+   border-radius: 5px;
+   height: 200px;
+}
+
+.input-button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Quicksand-Bold;
+    font-size: 17px;
+}
+
+.input-button:active {
+    cursor: pointer;
+}
+
+.input-button:focus {
+    outline: 0;
+}
+
+.input-button:active {
+    background-color: darkgray;
+}
+
+table {
+    margin: 0px auto 50px auto;
+    width: 350px;
+    text-align: center;
+    border: none;
+}
+
+tbody {
+    border: none;
+    margin: 0px;
+}
+
+th {
+    background-color: #595959;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid;
+}
+
+td {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.table-top {
+    margin-bottom: 15spx;
+}

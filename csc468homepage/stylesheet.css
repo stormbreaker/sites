@@ -1,0 +1,98 @@
+.links
+{
+  background-color: #ddddff;
+}
+.body-bg
+{
+  background-color: #fafedd;
+}
+/*p
+{
+  background-color: #ff0000;
+}*/
+.outset
+{
+  border-style: outset;
+  background-color: #ff0000; /*obviously we don't really want this red */
+}
+/*.main-link
+{
+  background-color: #ffffff;
+}*/
+.mainContent
+{
+  border-style: outset;
+  border-color: #edff66;
+  background-color: #f3fea0;
+  /*margin-left: 300px;*/
+  margin-left: 20%;
+  /*margin-right: 300px;*/
+  margin-right: 20%;
+}
+.year
+{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.center
+{
+    /*margin: auto;*/
+    width: 60%;
+    padding: 10px;
+}
+.contactContent
+{
+  border-style: outset;
+  border-color: #edff66;
+  background-color: #f3fea0;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.right
+{
+    position: relative;
+    left: 500px;
+    width: 50px;
+}
+.center2
+{
+    position: relative;
+    right: 0px;
+    width: 50px;
+}
+a.extern:link, a.extern:visited
+{
+    background-color: #ddddff;
+    color: #000000;
+    border: 2px solid #f3fea0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.extern:hover, a.extern:active
+{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+a.intern:link, a.intern:visited
+{
+  color: #0000ff;
+  text-decoration: none;
+}
+a.intern:hover, a.intern:active
+{
+  color: #00f0ff;
+  text-decoration: underline;
+}
+a.intern2:link, a.intern2:visited
+{
+  color: #0000ff;
+  text-decoration: none;
+}
+a.intern2:hover, a.intern2:active
+{
+  color: #0000ff;
+  text-decoration: underline;
+}

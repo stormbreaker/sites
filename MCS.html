@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>SDSM&T MCS Department Homepage</title>
+		<!--Load the style sheet-->
+        <link rel="stylesheet" type="text/css" href="submitstyle.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="minesGold">
+				<!--Department Logo-->
+                <img src="MCS_LOGO.png" class="imageProperties"/>
+                <br/>
+				<!--Navigation Menu-->
+                <div>
+                    <div class="dropdown"> <a href="MCS.html">Home</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Alumni</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Directory</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Faculty</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Map</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Policy</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Program</a> </div>
+                    <div class="dropdown"> <a href="sinkhole.html">Research</a> </div>
+					<!--Dropdown Navigation-->
+                    <div class="dropdown">
+                        <a>Student</a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="sinkhole.html">Checklist</a><br/>
+                            <a href="sinkhole.html">Courses</a><br/>
+                            <a href="sinkhole.html">Scheduler</a>
+                            <a href="submit.php">Submit It!</a>
+                        </div>
+                    </div>
+					<!--Login Fields-->
+                    <span class="loginfields" id="LoginDiv">
+                        <label>Username: </label>
+                        <input type="text" id="UserName"/>
+                        <label>Password: </label>
+                        <input type="password" id="Password"/>
+
+                        <input type="button" value="Login" onclick="LoginUser();"/>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+		<!--Content blocks-->
+        <h3>Welcome to Mathematics and Computer Science @ SDSM&T</h3>
+        <div style="display: inline-block">
+            <img src="McLaury.jpg" style="float: left" height="50%"/>
+            <span style="float: right vertical-align: top padding-left: 10px">
+                We are in the process of moving all our materials to the main campus website.
+                Our department offers a B.S. in Computer Science, a B.S. in Applied and
+                Computational Mathematics, and a new M.S. in Computational Sciences and
+                Robotics. Our B.S. Computer Science degree is accredited by the Computing
+                Accreditation Commission of <a href="http://www.abet.org." target="_blank">ABET.</a>
+            </span>
+
+            <hr>
+            <h3>A Few Items Still on this Website</h3>
+            <span>
+                The code submission page has been redesigned to hopefully make it more
+                user friendly and intuitive. The code submission page can now be found
+                under "Students Submit It!". The Alumni, resources, and policy pages on
+                the left navigation menu are still complete with the information we have
+                been maintaining. Please check out the <a href="http://www.sdsmt.edu/MCS/" target="_blank">new department home.</a>
+                to get the latest and greatest information.
+            </span>
+        </div>
+    </body>
+</html>
